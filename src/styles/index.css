@@ -1,0 +1,23 @@
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* 为行内表单内部元素设置最小宽度 */
+.pro-form.el-form--inline .el-form-item .el-form-item__content .el-input,
+.pro-form.el-form--inline .el-form-item .el-form-item__content .el-slider {
+  min-width: 220px;
+}
+
+/* 为搜索label统一宽度，防止多行时过于错乱 */
+.pro-crud-search .pro-form-item .el-form-item__label {
+  width: 90px;
+}
